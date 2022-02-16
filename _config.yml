@@ -4,6 +4,7 @@
 ####################################
 name                : 'Calgary Web Design'
 title               : 'Calgary Web Design | The SMB and freelancers best friend'
+tagline             : 'Calgary Web Design | The SMB and freelancers best friend'
 email               : 'me@chrisconnelly.dev'
 address             : 'Calgary Alberta '
 phone               : 014038310028
@@ -16,7 +17,7 @@ logo                : assets/img/logo/logolong.png
 logo2               : assets/img/logo/logolong.png
 
 author:
-  name: ducor
+  name: Calgary Web Design
   
 # paginate
 paginate: 6
@@ -100,6 +101,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-archives
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -156,8 +158,8 @@ og_image                 :  '/assets/img/og_image.jpg' # Open Graph/Twitter defa
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : '' # Person or Organization (defaults to Person)
-  name                   : '' # If the user or organization name differs from the site's name
+  type                   : 'Organization' # Person or Organization (defaults to Person)
+  name                   : 'Calgary Web Design' # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
@@ -172,27 +174,19 @@ analytics:
 ##########################################################################
 menus:
   - name: Home
-    url: '#'
-    children: 
-      - name: Home version 1
-        url:  '/'
+    url: '/'
   - name: About
     url: /about/
-  - name: Pages
-    url: '#'
-    children: 
-    - name: Service
-      url:  '/service/'
-    - name: 'Our Projects'
+    children:
+    - name: 'Our Services'
+      url: '/service/'
+    - name: 'Our Portfolio'
       url: '/work/'
     - name: 'Our Team'
       url: '/team/'
-    - name: '404'
-      url: '/404.html'
   - name: Blog
     url: '/blog/'
-  - name: Contact
-    url: /contact/
+
 
 ##########################################################################
 ######################## socials profile #################################
@@ -238,22 +232,22 @@ blog:
 ############################ footer ######################################
 ##########################################################################
 footer:
-  address: '<li>Address: House 00, Road No : 01, Street address, ABC</li> <li>Phone:
-    <a href="#">+0 123-456-7890</a> </li> <li>Email: <a href="#">info@example.com</a>
+  address: '<li>Location: Calgary,Alberta </li> <li>Phone:
+    <a href="#">+1 403-831-0028</a> </li> <li>Email: <a href="#">info@calgaryweb.design</a>
     </li>'
   bg_image: assets/img/footer/footer-bg.png
-  copyright: "© 2020 All Right Reserved, Ailng"
-  description: This is Photoshop's version of LoreiIpsum. Aenean sollicitudin,
+  copyright: "© 2020 All Right Reserved, chrisConnellyDotDev INC"
+  description: Calgary Web Design assists freelancers, small and, medium sized cmpanies acqure enterprise technology
   logo: assets/img/logo/logo.png
 footer2:
-  address: '<li>Address: House 00, Road No : 01, Street address, ABC</li> <li>Phone:
-    <a href="#">+0 123-456-7890</a> </li> <li>Email: <a href="#">info@example.com</a>
+  address: '<li>Location: Calgary,Alberta</li> <li>Phone:
+    <a href="#">+1 403-831-0028</a> </li> <li>Email: <a href="#">info@calgaryweb.design</a>
     </li>'
-  copyright: "© 2020 All Right Reserved, Ailng"
+  copyright: "© 2020 All Right Reserved, chrisConnellyDotDev INC"
   helpfullink: Helpful Links
   logo: assets/img/logo/logo.png
   quicklink: Quick Links
-  description: 'Maboriosam in a nesciung egemagnaeli montant odiy. '
+  description: 'Calgary Web Design assists freelancers, small and, medium sized cmpanies acqure enterprise technology '
 
 ########################################################################
 ##########################  worksItems #################################
@@ -312,7 +306,7 @@ promo:
   contact_link: contact.html
   contact_text: Contact Us
   subtitle: Contact Us
-  title: If You Have any Projects or Task for Us. Please Contact Us
+  title: Want to know more? Please contact us
 
 ##########################################################################
 ######################## subscribe #######################################
@@ -329,7 +323,7 @@ whatwedo:
   contact_link: /contact/
   contact_text: Contact Us
   subtitle: What We Do
-  title: We Providing Some Special Services <br> To our Clients.
+  title: We Provide Some Special Services <br> To our Clients.
 
 ##########################################################################
 ######################## features #######################################
@@ -389,19 +383,19 @@ wedo:
 - image: assets/img/icons/3.png
   title: Custom Development
   description: Custom websites, web applications, desktop applications, CMS and, CRM
-  service_text: Explore Service
-  service_link: '/service'
+  service_text: Explore Services
+  service_link: 'services/webdesign'
 - image: assets/img/icons/4.png
   title: Web & Email Hosting
   description: Affordable packages for hosting your site, service or emails
-  service_text: Explore Service
-  service_link: '#'
+  service_text: Explore Services
+  service_link: 'services/hosting'
 - image: assets/img/icons/5.png
   title: Digital Marketing & SEO
   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
     elite.
-  service_text: Explore Service
-  service_link: '#'
+  service_text: Explore Services
+  service_link: '/services/seo'
 
 ##########################################################################
 ######################## work #######################################
@@ -533,7 +527,7 @@ faqs2:
 ####################################################################
 service:
   subtitle: Services
-  title: We Providing Some Special Services <br> To Our Clients.
+  title: We Provide Some Special Services <br> To Our Clients.
 singlearea:
   image: assets/img/subscribe/sub-right.png
   subtitle: Newsletter
@@ -556,17 +550,15 @@ cases:
   subtitle: Business Ananlysis &amp; Strategy
 whatarea1:
 - image: assets/img/icons/3.png
-  title: Business Analysis
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
-  service_text: Explore Service
-  service_link: '#'
+  title: Web Design
+  description: Custom web site design and development
+  service_text: Find Out More
+  service_link: '/services/webdesign.html/'
 - image: assets/img/icons/4.png
-  title: Financial Planning
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
-  service_text: Explore Service
-  service_link: '#'
+  title: Web Hosting
+  description: Website web app and email hosting at a fraction of the cost
+  service_text: Find Out More
+  service_link: '/services/hosting.html/'
 - image: assets/img/icons/5.png
   title: Digital Marketing
   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
@@ -577,13 +569,13 @@ whatarea1:
   title: Business Consulting
   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
     elite.
-  service_text: Explore Service
+  service_text: Find Out More
   service_link: '#'
 - image: assets/img/icons/7.png
   title: Creative Design
   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
     elite.
-  service_text: Explore Service
+  service_text: Find Out More
   service_link: '#'
 - image: assets/img/icons/8.png
   title: Email Marketing

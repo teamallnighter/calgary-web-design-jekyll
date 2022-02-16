@@ -12,34 +12,41 @@ image: false
 {%- include breadcrumb.html -%}
 <!-- End  Breadcrumb -->
 
-<!-- Start Blog-Content
-		============================================= -->
 <div class="single-area de-padding">
 	<div class="container">
 		<div class="contact-page-info grid-2">
 			<div class="contact-left">
 				<h2 data-splitting class="mb-50 wow" data-wow-duration=".1s" data-wow-delay=".4s">
-					Hello! Have you want <br />
-					to need any inquary or <br />
+					Want to know more? <br />
 					have any Questions?
 				</h2>
 				<ul class="contact-list wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
 					<li>
-						<h5 class="fz-18-5">Address:</h5>
-						<span>House 00, Road No : 01, Street address, ABC, Canada</span>
+						<h5 class="fz-18-5">Location:</h5>
+						<span>Calgary Alberta</span>
 					</li>
 					<li>
 						<h5 class="fz-18-5">Phone:</h5>
-						<span>+0 123-456-7890, +00 123-456-789</span>
+						<span>+1 403-831-0028</span>
 					</li>
 					<li>
 						<h5 class="fz-18-5">Email:</h5>
-						<span><a href="#">hello@example.com</a></span>
+						<span><a href="#">info@calgaryweb.design</a></span>
 					</li>
 				</ul>
 			</div>
 			<div class="contact-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-				<form class="contact-form" id="contact-form" action="https://getform.io/f/{{ site.getform_id }}" method="POST">
+				<form
+  					name="contact"
+					action="/success"
+  					method="POST"
+  					netlify-honeypot="bot-field"
+  					data-netlify="true"
+				>
+					<!--Dont fill this out if you are a human-->
+					 <input class="hidden" name="bot-field" />
+					
+			
 					<div class="row g-4">
 						<div class="col-md-6">
 							<input type="text" name="name" class="form-control input-style-2"
