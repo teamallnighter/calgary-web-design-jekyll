@@ -5,7 +5,7 @@
 name                : 'Calgary Web Design'
 title               : 'Calgary Web Design | The SMB and freelancers best friend'
 email               : 'me@chrisconnelly.dev'
-address             : '2216 Park Avenue, California 95630 '
+address             : 'Calgary Alberta '
 phone               : 014038310028
 description: >- # this means to ignore newlines until "baseurl:"
   Located in Calgary, Alberta, Calgary Web Design creates custom solutions for freelancers, small and medium sized companies that are cost affective and efficient.
@@ -149,7 +149,7 @@ naver_site_verification  : ''
 twitter:
   username               : ''
 facebook:
-  username               : ''
+  username               : 'chrisconnellydotdev'
   app_id                 : ''
   publisher              : ''
 og_image                 :  '/assets/img/og_image.jpg' # Open Graph/Twitter default site image
@@ -162,9 +162,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : google # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : ''
+    tracking_id          : 'G-BJXPV22JC6'
     anonymize_ip         : true # true, false (default)
 
 ##########################################################################
@@ -176,8 +176,6 @@ menus:
     children: 
       - name: Home version 1
         url:  '/'
-      - name: Home version 2
-        url:  '/index-2/'
   - name: About
     url: /about/
   - name: Pages
@@ -220,9 +218,9 @@ about:
 about2:
   bg_image: assets/img/about/about-3.png
   description: At Calgary Web Design we are proud to work with local freelancers, small and medium sized companies. 
-  list: <li> <i class="icofont-check-circled"></i> Great Support Team alltime Active
-    </li> <li> <i class="icofont-check-circled"></i> Marketing Research Team </li>
-    <li> <i class="icofont-check-circled"></i> Business Analysis &amp; Marketing </li>
+  list: <li> <i class="icofont-check-circled"></i> We specialize in small and medium sized companies
+    </li> <li> <i class="icofont-check-circled"></i> Specialized marketing for your company </li>
+    <li> <i class="icofont-check-circled"></i> Fast and efficient deployment </li>
   subtitle: Agency Features
   title: Calgary born and raised
   work_link: '/work/'
@@ -296,12 +294,12 @@ hero1:
   video_link: https://www.youtube.com/watch?v=ku6dEtynrRI
   video_text: <i class="fas fa-play"></i> <span class="how-txt">How we work</span>
 hero2:
-  intro: We’re Help Growing Your Business.
+  intro: Calgary Web Design
   right_img: assets/img/hdr-3.png
   service_link: service.html
   service_text: Explore More <i class="icofont-long-arrow-right"></i>
-  subtitle: Lorem ipsum dolor consecteture elite we’re a creative digital your business
-    growing up.
+  subtitle: Enterprise technology for freelancers, small and medium sized business'
+  title: Calgary Web Design and Development
   video_link: https://www.youtube.com/watch?v=ku6dEtynrRI
   video_text: <i class="fas fa-play"></i> <span class="how-txt">How we work</span>
   image: assets/img/work/6.png
@@ -375,13 +373,13 @@ features2:
 ##########################################################################
 facts:
 - image: assets/img/icons/1.png
-  counter: '2382'
+  counter: '25'
   title: Projects Completed
 - image: assets/img/icons/2.png
-  counter: '25'
+  counter: '2500'
   title: Deployment Hours
 - image: assets/img/icons/feedback.png
-  counter: '1000'
+  counter: '50'
   title: Happy Clients
 
 ##########################################################################
@@ -422,23 +420,19 @@ works:
 ######################## reviews #######################################
 ##########################################################################
 reviews:
-- quotes: Lorem Ipsum dolor seat ameat dui too consecteture more be elite. According
-    the agency is best for growing your business what your A best consulting business
-    agency.
-  author: Atardam Steve
-  status: Founder
-- quotes: Lorem Ipsum dolor seat ameat dui too consecteture more be elite. According
-    the agency is best for growing your business what your A best consulting business
-    agency.
-  author: Atardam Steve
-  status: Founder
+- quotes: Chris is super awesome to work with, very personable, he gets things done with no hassle and really knows what he's doing. He has a really diverse skill set as well, from creating API's, building apps and integrated functions to websites, complete website development, programing, automation, and even business management. His work has been really valuable for us and would fully recommend him to anybody.
+  author: Dustin Poole
+  status: CEO - Go Tech Foundation
+- quotes: Chris has redeveloped our website with fresh new ideas and provided us with several options to expand or create a more interactive website for our clients.  The cost in doing so was very reasonable and the process was very smooth.  Were happy with the end result and look forward to continually redeveloping our website with new innovative ideas.
+  author: Geoff Wright
+  status: Owner - Guardian Condo Care
 
 ####################################################################
 ######################## feature ###################################
 ####################################################################
 feature_service:
-  title: ' Recently Some Cases Done by Our <br> Agency Team'
-  subtitle: 'Case Study'
+  title: ' Our Case Studies'
+  subtitle: 'Knowledge'
 
 feature_services:
   - name: Business Analysis
@@ -470,7 +464,7 @@ feedbacks:
   status: CEO - Go Tech Foundation
 - image: assets/img/review/calgary-web-design-review-geoff-wright.png
   description: Chris has redeveloped our website with fresh new ideas and provided us with several options to expand or create a more interactive website for our clients.  The cost in doing so was very reasonable and the process was very smooth.  Were happy with the end result and look forward to continually redeveloping our website with new innovative ideas.
-  author: Atardam Steve
+  author: Geoff Wright
   status: Owner - Guardian Condo Care
 - image: assets/img/review/calgary-web-design-review-kate-macparland.png
   description: Chris is a delight to work with. Not only is he very good at what he does, but he is personable and very easy to communicate with. He’s innovated and thorough. I highly recommend him. Thanks so much for your hard work, Chris.
@@ -489,7 +483,7 @@ faq2:
   description: Lorem ipsum dolor seat ameat dui too consecteture elite more occopassional
     works.A consulting agency are highly trying to them to their clients.
   image: assets/img/review/review-pic-2.jpg
-  subtitle: If You need Any Other Info Check Our FAQ,s
+  subtitle: Frequently Asked Questions
   title: Question &amp; Answer
 
 faqs:
