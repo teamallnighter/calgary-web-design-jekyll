@@ -36,7 +36,7 @@ image: false
 				</ul>
 			</div>
 			<div class="contact-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-				<form
+				<!--<form
   					name="contact"
 					action="/success"
   					method="POST"
@@ -45,7 +45,7 @@ image: false
 				>
 					<!--Dont fill this out if you are a human-->
 					 <input class="hidden" name="bot-field" />
-					
+					<!--
 			
 					<div class="row g-4">
 						<div class="col-md-6">
@@ -73,7 +73,8 @@ image: false
 							<p class="form-message"></p>
 						</div>
 					</div>
-				</form>
+				</form>-->
+				{%- include sections/contactform.html -%}
 			</div>
 		</div>
 	</div>

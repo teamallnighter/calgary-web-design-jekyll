@@ -41,3 +41,10 @@ So, what is a good bounce rate? A bounce rate of 56% to 70% is on the high side,
 7. Bad Form
 8. No CTA (call to action)
 9. Poor User Experience 
+
+## Conclusion
+
+There are many ways to fix your bounce rate and, in this series we will be taking a deep dive into how. 
+
+[Part 2: How to reduce your bounce rate: Above The fold](https://calgaryweb.design/blog/how-to-reduce-your-bounce-rate-above-the-fold-copy/)
+[Part 3 How to reduce your bounce rate: Landing Pages]()

@@ -10,8 +10,8 @@ address             : 'Calgary Alberta '
 phone               : 014038310028
 description: >- # this means to ignore newlines until "baseurl:"
   Located in Calgary, Alberta, Calgary Web Design creates custom solutions for freelancers, small and medium sized companies that are cost affective and efficient.
-baseurl             : "" # the subpath of your site, e.g. /blog
-url                 : "" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+baseurl             : "/"
+url                 : "https://calgaryweb.design"
 locale              : "en_US"
 logo                : assets/img/logo/logolong.png
 logo2               : assets/img/logo/logolong.png
@@ -103,6 +103,7 @@ plugins:
   - jekyll-archives
   - jekyll-seo-tag
 
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-sitemap
@@ -130,9 +131,9 @@ getform_id: 'e5e1f635-da5d-4fc9-9a47-2e10735146f5' # active contact https://getf
 
 # SUBSCRIVE FORM 
 mailchimp:
-  user-id: 'c4e151b63d84a9bac731252a2'
-  list-id: 'ca518aaa14'
-  username: 'jekylltemplate.us5'
+  user-id: '58e3a0720b772aa5a7ba4f8741c961ce-us17'
+  list-id: 'b3a60db85'
+  username: 'chrisconnellydotdev'
 
 ####################################
 ######        Copyright       ######
@@ -144,7 +145,7 @@ company_url: 'https://chrisconnelly.dev'
 # SEO Related
 google_site_verification : ''
 bing_site_verification   : ''
-yandex_site_verification : ''
+yandex_site_verification : 'ceba228f9245ec41'
 naver_site_verification  : ''
 
 # Social Sharing
@@ -175,11 +176,22 @@ analytics:
 menus:
   - name: Home
     url: '/'
+  - name: 'Our Services'
+    url: '/service/'
+    children:
+    - name: 'Web Design'
+      url: '/services/webdesign.html'
+    - name: 'Web Hosting'
+      url: '/services/hosting.html'
+    - name: 'Wordpress'
+      url: '/services/wordpress.html'
+    - name: 'E Commerce'
+      url: '/services/commerce.html'
+    - name: 'SEO / Marketing'
+      url: '/services/marketing.html'
   - name: About
     url: /about/
     children:
-    - name: 'Our Services'
-      url: '/service/'
     - name: 'Our Portfolio'
       url: '/work/'
     - name: 'Our Team'
@@ -207,18 +219,25 @@ socials:
 about:
   description: Calgary Web Design proudly supports Calgary and area small and medium sized business' as well as freelancers to ensure they grow their business effectifly
   image: assets/img/about/about-3.png
-  subtitle: Calgary born and raised
+  subtitle: YES! We Do that!
   title: About Agency
 about2:
   bg_image: assets/img/about/about-3.png
-  description: At Calgary Web Design we are proud to work with local freelancers, small and medium sized companies. 
-  list: <li> <i class="icofont-check-circled"></i> We specialize in small and medium sized companies
-    </li> <li> <i class="icofont-check-circled"></i> Specialized marketing for your company </li>
-    <li> <i class="icofont-check-circled"></i> Fast and efficient deployment </li>
+  description: We have more services than you'd expect
+  list: <li> <i class="fa-solid fa-browser"></i> Custom web development from scratch. No templates.</li> 
+        <li> <i class="fa-solid fa-brush"></i> Digital media and printing </li>
+        <li> <i class="fa-brands fa-wordpress-simple"></i> Wordpress and many other no code content management systems</li>
+        <li> <i class="fa-solid fa-radar"></i> Social media marketing, SEO, and Google ads </li>
+        <li> <i class="fa-solid fa-server"></i> Web and email hosting </li>
+        <li> <i class="fa-brands fa-app-store"></i> Custom web, desktop, IOS and, android apps </li>
+        <li> <i class="fa-solid fa-face-viewfinder"></i> Brand development and corporate culture </li>
+        <li> <i class="fa-brands fa-uncharted"></i> Custom human resources, customer relationship management and, accounting software </li>
+
+
   subtitle: Agency Features
-  title: Calgary born and raised
-  work_link: '/work/'
-  work_text: Get Started <i class="icofont-long-arrow-right"></i>
+  title: Yes! We do that!
+  work_link: '/service/'
+  work_text: Our Sercives <i class="icofont-long-arrow-right"></i>
 
 ##########################################################################
 ############################ blog #######################################
@@ -278,7 +297,7 @@ worksItems:
 ######################## hero ############################################
 ##########################################################################
 hero1:
-  intro: Calgary Web Design
+  intro: Calgary Web Design & IT Solutions
   service_link: service.html
   service_text: Explore More <i class="icofont-long-arrow-right"></i>
   subtitle: Enterprise technology for freelancers, small and medium sized business'
@@ -288,7 +307,7 @@ hero1:
   video_link: https://www.youtube.com/watch?v=ku6dEtynrRI
   video_text: <i class="fas fa-play"></i> <span class="how-txt">How we work</span>
 hero2:
-  intro: Calgary Web Design
+  intro: Calgary Web Design & IT Solutions
   right_img: assets/img/hdr-3.png
   service_link: service.html
   service_text: Explore More <i class="icofont-long-arrow-right"></i>
@@ -305,9 +324,20 @@ hero2:
 promo:
   contact_link: contact.html
   contact_text: Contact Us
-  subtitle: Contact Us
-  title: Want to know more? Please contact us
+  subtitle: Find Out More About Our Servies
+  title: Get in touch so we can find the best service for you.
 
+promo1:
+  contact_link: contact.html
+  contact_text: Contact Us
+  subtitle: Get in touch today 
+  title: Want To Know More About How We Want To Help You Grow Your Business?
+
+promo2:
+  contact_link: contact.html
+  contact_text: Contact Us
+  subtitle: Contact Us
+  title: Get in touch so we can find the best service for you.
 ##########################################################################
 ######################## subscribe #######################################
 ##########################################################################
@@ -322,8 +352,8 @@ subscribe:
 whatwedo:
   contact_link: /contact/
   contact_text: Contact Us
-  subtitle: What We Do
-  title: We Provide Some Special Services <br> To our Clients.
+  subtitle: What We Do Best
+  title: Long term solutions geared towards you companies needs for efficient growth
 
 ##########################################################################
 ######################## features #######################################
@@ -336,9 +366,8 @@ features:
   type: Transparency
   description: Our advanced customer portal offers complete transparency with detailed reporting and invoicing so you know what you’re buying down to the second!
 - image: assets/img/icons/rating.png
-  type: Top Rated Agency
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
+  type: Monthly Prgrams
+  description: Our monthly programs are for companies who want to take their business to the next level. 
 - image: assets/img/icons/consult.png
   type: Dedicated To Growth
   description: We want to help your business grow using the modern web so you can grow your business without worrying about IT
@@ -381,13 +410,13 @@ facts:
 ##########################################################################
 wedo:
 - image: assets/img/icons/3.png
-  title: Custom Development
-  description: Custom websites, web applications, desktop applications, CMS and, CRM
-  service_text: Explore Services
+  title: Implementing New Technology Takes Time
+  description: We want to make sure you're happy with you're IT solutions. Weather your upgrading to the newest or starting from scratch, implementing these new systems takes time to do it right. 
+  service_text: See Case Study
   service_link: 'services/webdesign'
 - image: assets/img/icons/4.png
-  title: Web & Email Hosting
-  description: Affordable packages for hosting your site, service or emails
+  title: We're dedicated to helping you grow yous bueinss through technology
+  description: We are so sure that we can help you grow your business. 
   service_text: Explore Services
   service_link: 'services/hosting'
 - image: assets/img/icons/5.png
@@ -497,30 +526,22 @@ faqs:
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
     is exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipisicing
     elit.
-- title: 5. How to improved your business?
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
-    is exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipisicing
-    elit.
+- title: 5. How can Calgary Web Design Help my business grow?
+  description: By offering monthly services so you don't just get web design services from us but 
+    long term solutions that are implemented through out each year, month, week and even day.
 
 faqs2:
-- title: 1. Think ahead &amp; boost your business?
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
-    is exercitation ullamco laboris
-- title: 2. How our experts consulter work?
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
-    is exercitation ullamco laboris.
-- title: 3. What is the best tips for growth your business?
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
-    is exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipisicing
-    elit.
-- title: 4. How to improved your business?
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
-    is exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipisicing
-    elit.
-- title: 5. How to improved your business?
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusitempor
-    is exercitation ullamco laboris.Lorem ipsum dolor sit amet, consectetur adipisicing
-    elit.
+- title: 1. How long does it take to build a website?
+  description: Depending on assets it can take up to six weeks to complete
+- title: 2. Will my website be set up for SEO?
+  description: Yes, all of our websites come out of the box SEO friendly
+- title: 3. What content management system do you work with?
+  description: We believe that there is no single CMS that works for all and decide on a case by case basis. Our goal is to make sure you have a cms that works with your companies workflow.
+- title: 4. What are your packages?
+  description: Our packages are monthly programs to not only ensure you have a great website / web app / IT solution but that it helps your business grow.
+- title: 5. How can Calgary Web Design Help my business grow?
+  description: By offering monthly services so you don't just get web design services from us but 
+    long term solutions that are implemented through out each year, month, week and even day.
 
 ####################################################################
 ######################## case ######################################
@@ -549,36 +570,33 @@ cases:
   title: Business / Business Analysis
   subtitle: Business Ananlysis &amp; Strategy
 whatarea1:
-- image: assets/img/icons/3.png
+- image: assets/img/icons/browser.png
   title: Web Design
   description: Custom web site design and development
   service_text: Find Out More
   service_link: '/services/webdesign.html/'
-- image: assets/img/icons/4.png
+- image: assets/img/icons/server.png
   title: Web Hosting
   description: Website web app and email hosting at a fraction of the cost
   service_text: Find Out More
   service_link: '/services/hosting.html/'
-- image: assets/img/icons/5.png
-  title: Digital Marketing
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
+- image: assets/img/icons/wordpress.png
+  title: Wordpress Development
+  description: We offer managed wordpress deployments 
   service_text: Explore Service
-  service_link: '#'
-- image: assets/img/icons/6.png
-  title: Business Consulting
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
+  service_link: '/services/wordpress'
+- image: assets/img/icons/ecomm.png
+  title: E Commerce Development
+  description: Totally custom e commerce solutions or CRM based
+  service_text: Find Out More
+  service_link: '/services/ecomm'
+- image: assets/img/icons/marketing.png
+  title: Social Marketing
+  description: Google ads, Facebook ads, instagram ads, Linkedin ads
   service_text: Find Out More
   service_link: '#'
-- image: assets/img/icons/7.png
-  title: Creative Design
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
-  service_text: Find Out More
-  service_link: '#'
-- image: assets/img/icons/8.png
-  title: Email Marketing
+- image: assets/img/icons/search.png
+  title: Search Engine Optimization
   description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
     elite.
   service_text: Explore Service

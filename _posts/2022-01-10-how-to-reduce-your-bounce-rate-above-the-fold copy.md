@@ -2,6 +2,7 @@
 title: How to reduce your bounce rate - Above the fold
 author: Chris Connelly
 image: assets/img/blog/Keeping_content_above_the_fold.png
+bgimage: assets/img/blog/Keeping_content_above_the_fold.png
 categories: ["Search Engine Optimization"]
 comments: true
 tags: [ SEO, Bounce Rate ]
@@ -9,17 +10,20 @@ tags: [ SEO, Bounce Rate ]
 
 # Keeping Content Above The Fold
 
+![How to reduce your bounce rate by keeping content above the fold](https://calgaryweb.design/assets/img/blog/above-the-fold-web-design.jpg)
+
 If you follow your analytics for your site you’ve probably come accross the term “Bounce Rate”
 
 ## What is bounce rate?
 
-Bounce rate is an Internet marketing term used in web traffic analysis. It represents the percentage of visitors who enter the site and then leave rather than continuing to view other pages within the same site.
+Bounce rate is an Internet marketing term used in web traffic analysis. It represents the percentage of visitors who enter the site and then leave rather than continuing to view other pages within the same site. If you are starting fresh on reducing your bounce rate, you should read [THIS ARTICLE](https://calgaryweb.design/blog/how-to-reduce-your-bounce-rate-intro/) before moving on.
 
-In this (and articles to follow) I will be discussing bounce rate and how to reduce it. In this first article I will be discussing a great way to reduce your bounce rate. Keeping content above the fold, I made some small changes to my site and reduced my bounce rateby 6% over night.
 
 ## What is “The Fold”
 
 Above the fold is the upper half of the front page of a newspaper or tabloid where an important news story or photograph is often located. Papers are often displayed to customers folded so that only the top half of the front page is visible.
+
+![Above the fold, what is the fold?](https://calgaryweb.design/assets/img/blog/above-the-fold.png)
 
 ## Tips for keeping your content above the fold
 
@@ -36,6 +40,9 @@ When creating your page header put yourself in your visitor’s shoes. They’ve
 The same goes for every page on your site, whether that’s your homepage, services, page, or even the headlines on your blog posts.
 
 If you’re creating the header for your homepage you’ll want this to describe your company in as few words as possible, while still making it stand out. Your header will communicate this unique value, while the copy further down the page will further expand upon this headline, or promise you made to your visitors.
+
+![powerful H1 tag](https://calgaryweb.design/assets/img/blog/powerfulh1.jpg)
+
 
 ### Add keywords in the opening paragraphs
 
@@ -60,6 +67,8 @@ There are a variety of different kinds of featured snippets including:
 Paragraph Numbered list Bullet list Table Video The majority of the content that “wins” the featured snippet ranks in the top 10 search results.
 
 But, how do you optimize for the featured snippet?
+
+![Optimize google snippet](https://calgaryweb.design/assets/img/blog/featured-snippet.png)
 
 Start by answering the question – Instead of starting your post with a long intro, try to answer the user’s question, or the main information from the keyword as early in the text as possible. Then, you can proceed with everything else that backs up that answer.
 
@@ -91,6 +100,8 @@ When it comes to ranking in the search engines, the length of your content matte
 This more so applies to blog post length. However, the same can be said for most other pages of your website.
 
 For example, if you’re an IT company that’s serving multiple different regions, you’ll want each of these pages to have enough content. This gives you enough space to provide value to your visitors, while targeting your main and related keywords, without stuffing your content.
+
+![Call to action](https://calgaryweb.design/assets/img/blog/cta.png)
 
 This also applies to your homepage, or other landing pages where you’re asking people to sign-up, or take action based on your CTA.
 
