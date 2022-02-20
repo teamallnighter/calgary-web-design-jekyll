@@ -1,14 +1,14 @@
 ---
-title: How to reduce your bounce rate - Above the fold
+title: How to reduce your bounce rate - Responsive Design
 author: Chris Connelly
 image: assets/img/blog/Keeping_content_above_the_fold.png
 bgimage: assets/img/blog/Keeping_content_above_the_fold.png
-categories: ["Search Engine Optimization"]
+categories: ["Search Engine Optimization", "Bounce Rate", "Responsive Design"]
 comments: true
 tags: [ SEO, Bounce Rate ]
 ---
 
-# Keeping Content Above The Fold
+# Ensure Your Site Is Responsive
 
 ![How to reduce your bounce rate by keeping content above the fold](https://calgaryweb.design/assets/img/blog/above-the-fold-web-design.jpg)
 
