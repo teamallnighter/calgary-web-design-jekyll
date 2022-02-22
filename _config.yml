@@ -367,7 +367,7 @@ features:
   description: Our advanced customer portal offers complete transparency with detailed reporting and invoicing so you know what you’re buying down to the second!
 - image: assets/img/icons/rating.png
   type: Monthly Prgrams
-  description: Our monthly programs are for companies who want to take their business to the next level. 
+  description: Our monthly programs are for companies who want to take their business to the next level. We customize each program for your needs and budget. 
 - image: assets/img/icons/consult.png
   type: Dedicated To Growth
   description: We want to help your business grow using the modern web so you can grow your business without worrying about IT
@@ -416,13 +416,12 @@ wedo:
   service_link: 'services/webdesign'
 - image: assets/img/icons/4.png
   title: We're dedicated to helping you grow yous bueinss through technology
-  description: We are so sure that we can help you grow your business. 
+  description: We are so sure that we can help you grow your business using modern techniques that save money, time and, headache. A lot of agencies want to cut and run but we are invested to growing your buiness.
   service_text: Explore Services
   service_link: 'services/hosting'
 - image: assets/img/icons/5.png
-  title: Digital Marketing & SEO
-  description: According to lorem ipsum dolo siti ameat dui too consecteture consecteture
-    elite.
+  title: Experience
+  description: We've worked with and in small business' for many years and know what it takes to push a business to the next level here in Calgary. Weather your project is big or small we have a plan for you.
   service_text: Explore Services
   service_link: '/services/seo'
 
